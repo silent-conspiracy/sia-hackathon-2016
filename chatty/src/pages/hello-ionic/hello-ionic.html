@@ -9,17 +9,36 @@
 
 
 <ion-content padding>
+  <ion-content class="hello-ionic-page">
+    <h3>Welcome to your first Ionic app!</h3>
 
-  <h3>Welcome to your first Ionic app!</h3>
+    <p>
+      This starter project is our way of helping you get a functional app running in record time.
+    </p>
 
-  <p>
-    This starter project is our way of helping you get a functional app running in record time.
-  </p>
-  <p>
-    Follow along on the tutorial section of the Ionic docs!
-  </p>
-  <p>
-    <button ion-button color="primary" menuToggle>Toggle Menu</button>
-  </p>
+      <ion-card class="bot-message">
+        <ion-card-header>
+          Bot response with button selections
+        </ion-card-header>
+        <ion-list>
+          <button ion-item>Flight details 1</button>
+          <button ion-item>Flight details 2</button>
+          <button ion-item>Flight details 3</button>
+        </ion-list>
+      </ion-card>
+
+    <ion-list>
+      <ion-item>
+        <ion-icon item-left>
+          <ion-input type="text" placeholder="Chat with me"></ion-input>
+        </ion-icon>
+        <ion-icon item-right>
+          <button ion-button color="primary" menuToggle>Toggle Menu</button>
+        </ion-icon>
+      </ion-item>
+    </ion-list>
+
+
+  </ion-content>
 
 </ion-content>
